@@ -26,7 +26,12 @@ Part 1
 
 ### Changes
 
-```css
+- Changed Header font family to 'UnifrakturMaguntia' cursive for h1/serif for h2
+- Made first letter in a paragraph of an h2 a dropcap (got the idea from Spongebob)
+- Changed background image into an old yellow rustic scroll theme
+- formatted <pre> tag to wrap text at the end
+- Set following for image tag
+```
 img {
     filter: grayscale(100%);
     width: 50%;
