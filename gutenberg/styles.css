@@ -114,6 +114,7 @@ img {
     border: 0.4em solid black;
 }
 
+
 body {
     background-image: url("images/background.jpg");
     background-size: 100%;
@@ -151,5 +152,19 @@ pre {
     font-size: 1.75em;
     text-align: center;
     font-weight: bold;
+}
+
+.boxx {
+    border: solid 1px black;
+    padding: 1%;
+    margin: 1% auto 3% auto;
+    max-width: 50%;
+}
+
+.boxxx {
+    border: none;
+    padding: 1%;
+    margin: 1% auto 3% auto;
+    max-width: 50%
 }
 
