@@ -1,21 +1,16 @@
 
-body {
-    background-image: url("images/background.jpg");
-    background-size: 100%;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: justify
-}
-
 h1 {
-    font-size: 300%;
-    margin-top: 0.6em;
-    margin-bottom: 0.6em;
-    letter-spacing: 0.12em;
-    word-spacing: 0.2em;
-    text-indent: 0
+    text-align: center;
+    font-family: 'UnifrakturMaguntia',
+    cursive;
 }
 
+h2 {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'UnifrakturMaguntia',
+    serif;
+}
 
 
 /* from https://www.hongkiat.com/blog/css-better-paragraph/ */
@@ -27,21 +22,19 @@ h2+p::first-letter {
     display: block;
     float: left;
     line-height: 0.5em;
-    font-family: "UnifrakturMaguntia", "Serif";
+    font-family: "UnifrakturMaguntia", serif;
 
 }
 
 h3 {
-    font-size: 150%;
-    margin-top: 2em
+    text-align: center;
+    font-family: 'UnifrakturMaguntia',
+    serif;
 }
 
 h4 {
-    font-size: 120%
-}
-
-h5 {
-    font-size: 110%
+    text-align: center;
+    font-family: Book Antiqua;
 }
 
 hr {
@@ -56,9 +49,9 @@ div.chapter {
 }
 
 p {
-    text-indent: 1em;
-    margin-top: 0.25em;
-    margin-bottom: 0.25em
+    text-align: justify;
+    font-family: Book Antiqua;
+    display: block;
 }
 
 p.poem {
@@ -119,13 +112,45 @@ img {
     filter: grayscale(100%);
     width: 50%;
     opacity: 0.8;
+    border: 0.4em solid black;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify
 }
 
 .chapters, h2, h3 {
     font-family:serif;
 }
 
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 pre {
+    display: block;
     font-family: Book Antiqua;
+    white-space: pre-wrap;
+    /* css-3 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
+    
+}
+
+.start {
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: bold;
 }
 

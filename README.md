@@ -24,8 +24,19 @@ Code is licensed under the Apache 2.0 license.
 Part 1
 =================
 
-Awknowledgements:
+### Changes
 
+```css
+img {
+    filter: grayscale(100%);
+    width: 50%;
+    opacity: 0.8;
+    border: 0.4em solid black;
+}
+
+```
+
+## Sources:
 Paragraph dropcaps: https://www.hongkiat.com/blog/css-better-paragraph/ by Thoriq Firdaus
 
 
