@@ -31,7 +31,8 @@ Part 1
 - Changed background image into an old yellow rustic scroll theme
 - formatted <pre> tag to wrap text at the end
 - Set following for image tag
-```
+
+```css
 img {
     filter: grayscale(100%);
     width: 50%;
