@@ -30,7 +30,8 @@ Part 1
 - Made first letter in a paragraph of an h2 a dropcap (got the idea from Spongebob)
 - Changed background image into an old yellow rustic scroll theme
 - formatted <pre> tag to wrap text at the end
-- Set following for image tag
+- centered table of contents
+- Set following for image tag:
 
 ```css
 img {
