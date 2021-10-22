@@ -34,14 +34,22 @@ Part 1
 - Set following for image tag:
 
 ```css
-img {
+img.cover {
     filter: grayscale(100%);
     width: 50%;
     opacity: 0.8;
     border: 0.4em solid black;
 }
-
 ```
+```css
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+```
+
+
 
 ## Sources:
 Paragraph dropcaps: https://www.hongkiat.com/blog/css-better-paragraph/ by Thoriq Firdaus
