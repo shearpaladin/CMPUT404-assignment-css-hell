@@ -124,6 +124,8 @@ p {
 }
 ```
 
+
 rainbow paragraphs moving https://codepen.io/Colt/pen/NvKjEx by Colt Steele
+
 rainbow css background https://w3bits.com/rainbow-text/
 
