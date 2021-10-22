@@ -58,6 +58,11 @@ Paragraph dropcaps: https://www.hongkiat.com/blog/css-better-paragraph/ by Thori
 Part 2
 =================
 
+
+Good HTML
+=================
+- Formatted nice smooth color scheme for profile
+
 ## Sources:
 
 Navbar https://www.w3schools.com/css/css_navbar_horizontal.asp by w3schools
@@ -70,4 +75,55 @@ exp.jpg https://www.freepik.com/free-vector/laptop-with-program-code-isometric-i
 skills.jpg https://www.freepik.com/free-photo/online-learning-skills-concept-laptop-screen_11306803.htm#page=1&query=skills&position=5&from_view=search
 
 offer.jpg https://www.freepik.com/free-photo/finger-pressing-circle-with-word-start_944370.htm#page=1&query=new%20tech&position=8&from_view=search
+
+
+BAD HTML
+=================
+
+- flipped images upside down
+- rainbow gradient background
+- added rainbows to everything (almost!)
+- added rainbow moving text:
+```css
+p {
+    animation-name: rainbowtext;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbowtext {
+    0% {
+        color: red;
+        font-size: 20px;
+    }
+
+    25% {
+        color: orange;
+    }
+
+    50% {
+        color: yellow;
+        font-size: 40px;
+        transform: translateX(200px);
+    }
+
+    75% {
+        color: green;
+    }
+
+    85% {
+        color: blue
+    }
+
+    100% {
+        color: purple;
+        font-size: 20px;
+    }
+}
+```
+
+rainbow paragraphs moving https://codepen.io/Colt/pen/NvKjEx by Colt Steele
+rainbow css background https://w3bits.com/rainbow-text/
 
