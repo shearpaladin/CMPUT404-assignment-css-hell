@@ -77,7 +77,7 @@ skills.jpg https://www.freepik.com/free-photo/online-learning-skills-concept-lap
 offer.jpg https://www.freepik.com/free-photo/finger-pressing-circle-with-word-start_944370.htm#page=1&query=new%20tech&position=8&from_view=search
 
 
-BAD HTML
+Ugly HTML
 =================
 
 - flipped images upside down
