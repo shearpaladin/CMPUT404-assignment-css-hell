@@ -1,37 +1,131 @@
-ul {
+ul.top_nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #406343;
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+
 }
 
-li {
+li.top_nav{
     float: left;
 }
 
-li a {
+li.top_nav a {
     display: block;
-    color: #5C7AEA;
+    color: #ddd;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #ddd;
+li.top_nav a:hover:not(.active) {
+    background-color: #32502E;
 }
 
-li a.active {
+li.top_nav a.active {
     color: white;
-    background-color: #3D56B2;
+    background-color: #32502E;
 }
 
 body {
-    background-color: #E6E6E6;
+    background-color: #F3EFCC;
+}
+/* https://www.w3schools.com/css/css_list.asp  */
+div.side_menu {
+    list-style-type: square;
+    position: relative;
+    float: right;
+    height: 25em;
+    width: 25%;
+    margin: 0 25;
+    overflow: auto;
+    border: 0.2em solid #F5EDEB;
+    background-color: #ECE7B4;
+
 }
 
-h1 {
-    color: #14279B;
+div.about{
+    height: 20em;
+    margin-bottom: 1em;
+    border: 0.2em solid #F5EDEB;
+    margin: 0 30% 0 5%;
+    padding: 2px 16px;
+    background-color: #ECE7B4;
 }
+
+img.about{
+    float: left;
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin: 2% 4% 2% 0%;
+
+}
+
+div.experience {
+    height: 20em;
+    margin-bottom: 1em;
+    border: 0.2em solid #F5EDEB;
+    margin: 0 30% 0 5%;
+    padding: 2px 16px;
+    background-color: #ECE7B4;
+}
+
+img.exp {
+    float: right;
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin: 2% 4% 2% 0%;
+
+}
+
+div.skills {
+    height: 20em;
+    margin-bottom: 1em;
+    border: 0.2em solid #F5EDEB;
+    margin: 0 30% 0 5%;
+    padding: 2px 16px;
+    background-color: #ECE7B4;
+}
+
+img.skills {
+    float: left;
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin: 2% 4% 2% 0%;
+}
+
+div.offer {
+    height: 20em;
+    margin-bottom: 1em;
+    border: 0.2em solid #F5EDEB;
+    margin: 0 30% 0 5%;
+    padding: 2px 16px;
+    background-color: #ECE7B4;
+}
+
+img.offer {
+    float: right;
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin: 2% 0% 2% 0%;
+}
+
+
+h1 {
+    color: #32502E;
+}
+
+h4 {
+    color: #406343;
+}
+

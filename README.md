@@ -61,6 +61,13 @@ Part 2
 ## Sources:
 
 Navbar https://www.w3schools.com/css/css_navbar_horizontal.asp by w3schools
+List style for side menu https://www.w3schools.com/css/css_list.asp by w3schools
 
+Images are from: https://www.freepik.com/
 
+exp.jpg https://www.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_4102879.htm#page=1&query=coding&position=0&from_view=search
+
+skills.jpg https://www.freepik.com/free-photo/online-learning-skills-concept-laptop-screen_11306803.htm#page=1&query=skills&position=5&from_view=search
+
+offer.jpg https://www.freepik.com/free-photo/finger-pressing-circle-with-word-start_944370.htm#page=1&query=new%20tech&position=8&from_view=search
 
