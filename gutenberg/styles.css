@@ -107,11 +107,17 @@ table {
 }
 
 
-img {
+img.cover {
     filter: grayscale(100%);
     width: 50%;
     opacity: 0.8;
     border: 0.4em solid black;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

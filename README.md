@@ -47,4 +47,12 @@ img {
 Paragraph dropcaps: https://www.hongkiat.com/blog/css-better-paragraph/ by Thoriq Firdaus
 
 
+Part 2
+=================
+
+## Sources:
+
+Navbar https://www.w3schools.com/css/css_navbar_horizontal.asp by w3schools
+
+
 
